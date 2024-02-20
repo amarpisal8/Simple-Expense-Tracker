@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffccff, #66ccff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #container {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  #inputBox, #outputBox {
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  #addBtn {
+    background-color: #0e2b4d; /* green for Add */
+    border-radius: 0;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+  }
+  
+  #totalAmount {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #outputBox {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  thead {
+    background-color: #022e39; /* Dark green for the header background */
+    color: #ffffff;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #121111;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  #deleteBtn {
+    background-color: #fd0101; /* Light red for Delete button */
+    margin-right: 5px;
+  }
+  
+  
+  #deleteBtn {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 0px;
+    color: #000000;
+  }
+  
+  #deleteBtn:hover, #editBtn:hover {
+    opacity: 0.8;
+  }
+    
