@@ -74,12 +74,13 @@ body {
     text-align: center;
   }
   .inputchange{
-    background : white;
-    outline : none;
-    border-top: #66ccff;
-    border-bottom : red;
-    border-left : none;
-    border-right : none;
+    background-color: white;
+    height: 27px;
+    outline: none;
+    border: none;
+    border-top: 1px solid red;
+    border-bottom: 1px solid purple;
+    margin: 2px;
 
   }
   #deleteBtn {
@@ -100,5 +101,5 @@ body {
     opacity: 0.8;
   }
   #quantity{
-    width: 40px;
+    width: 60px;
   }
