@@ -73,7 +73,15 @@ body {
   td {
     text-align: center;
   }
-  
+  .inputchange{
+    background : white;
+    outline : none;
+    border-top: #66ccff;
+    border-bottom : red;
+    border-left : none;
+    border-right : none;
+
+  }
   #deleteBtn {
     background-color: #fd0101; /* Light red for Delete button */
     margin-right: 5px;
