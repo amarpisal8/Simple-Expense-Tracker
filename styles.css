@@ -91,4 +91,6 @@ body {
   #deleteBtn:hover, #editBtn:hover {
     opacity: 0.8;
   }
-    
+  #quantity{
+    width: 40px;
+  }
