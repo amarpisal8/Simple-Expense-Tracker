@@ -7,7 +7,6 @@ body {
     justify-content: center;
     height: 100vh;
   }
-  
   #container {
     width: 80%;
     background: rgba(255, 255, 255, 0.7);
@@ -34,9 +33,9 @@ body {
   }
   
   #addBtn {
-    background-color: #0e2b4d; /* green for Add */
     border-radius: 0;
-    border: 1px solid black;
+    border : none;
+    width: 90px;
     color: rgb(255, 255, 255);
   }
   
@@ -56,8 +55,8 @@ body {
   }
   
   thead {
-    background-color: #022e39; /* Dark green for the header background */
-    color: #ffffff;
+    background-color: rgba(82, 80, 79, 0.158); /* Dark green for the header background */
+    color: #575757;
   }
   
   th, td {
@@ -84,10 +83,14 @@ body {
 
   }
   #deleteBtn {
-    background-color: #fd0101; /* Light red for Delete button */
+    background-color: #f315154d; /* Light red for Delete button */
     margin-right: 5px;
   }
-  
+  #deleteBtn:hover{
+    background-color: #f3151573;
+    color: #000000;
+    font-weight: bold;
+  }
   
   #deleteBtn {
     cursor: pointer;
@@ -101,5 +104,5 @@ body {
     opacity: 0.8;
   }
   #quantity{
-    width: 75px;
+    width: 100px;
   }
