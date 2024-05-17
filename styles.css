@@ -1,108 +1,106 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #ffccff, #66ccff);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  #container {
-    width: 80%;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  }
-  
-  #inputBox, #outputBox {
-    margin-bottom: 20px;
-  }
-  
-  input, button {
-    margin-bottom: 10px;
-  }
-  
-  button {
-    cursor: pointer;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    margin-right: 10px;
-  }
-  
-  #addBtn {
-    border-radius: 0;
-    border : none;
-    width: 90px;
-    color: rgb(255, 255, 255);
-  }
-  
-  #totalAmount {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  #outputBox {
-    margin-bottom: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-  }
-  
-  thead {
-    background-color: rgba(82, 80, 79, 0.158); /* Dark green for the header background */
-    color: #575757;
-  }
-  
-  th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #121111;
-  }
-  
-  th {
-    text-align: center;
-  }
-  
-  td {
-    text-align: center;
-  }
-  .inputchange{
-    background-color: white;
-    height: 27px;
-    outline: none;
-    border: none;
-    border-top: 1px solid red;
-    border-bottom: 1px solid purple;
-    margin: 2px;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Darker blue gradient */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #000000; /* White text */
+}
 
-  }
-  #deleteBtn {
-    background-color: #f315154d; /* Light red for Delete button */
-    margin-right: 5px;
-  }
-  #deleteBtn:hover{
-    background-color: #f3151573;
-    color: #000000;
-    font-weight: bold;
-  }
-  
-  #deleteBtn {
-    cursor: pointer;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 0px;
-    color: #000000;
-  }
-  
-  #deleteBtn:hover, #editBtn:hover {
-    opacity: 0.8;
-  }
-  #quantity{
-    width: 100px;
-  }
+#container {
+  width: 80%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #333; /* Dark text inside container */
+}
+
+#inputBox, #outputBox {
+  margin-bottom: 20px;
+}
+
+.input-group-text {
+  background-color: #2a5298; /* Match the background gradient */
+  color: #fff; /* White text for contrast */
+}
+
+.input-group-prepend {
+  margin-right: 10px;
+}
+
+.form-control {
+  border: 1px solid #2a5298; /* Border color matching the background gradient */
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#addBtn {
+  background-color: #2a5298; /* Match the background gradient */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#addBtn:hover {
+  background-color: #1e3c72; /* Darker shade on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #2a5298; /* Match the background gradient */
+  color: #fff; /* White text */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  text-align: center;
+}
+
+#deleteBtn {
+  background-color: #e74c3c; /* Red for delete button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#deleteBtn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+#editBtn {
+  background-color: #f39c12; /* Orange for edit button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#editBtn:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+#totalAmount {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right; /* Align text to the right */
+  color: #2a5298; /* Match the background gradient */
+}
